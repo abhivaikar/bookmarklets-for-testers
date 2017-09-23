@@ -5,6 +5,8 @@ This repository documents browser bookmarklets I created using Javascript that I
 A bookmarklet is a bookmark stored in a web browser that contains JavaScript commands that add new features to the browser. Bookmarklets are unobtrusive JavaScripts stored as the URL of a bookmark in a web browser or as a hyperlink on a web page. Bookmarklets are usually JavaScript programs. Source: [Wikipedia.](https://en.wikipedia.org/wiki/Bookmarklet)
 
 ## How are browser bookmarklets useful for testers?
+*Quick navigation to different websites/apps where change in the URL parameters gives specific data*
+
 Testers use lot of tools on the web in their daily work routine (For example: Google, Stackoverflow, JIRA, GitHub many other project specific internal tools). **Context switching** leads us to frequently moving from one website/web tool to the other. Quite often the pages (URLs) that we navigate to change, based on certain parameters for example we google with a different query everytime. What about the usual browser bookmarks? Well, we cannot keep bookmarking URLs of apps/websites with variable parameters. That will be a mess.
 
 With browser bookmarklets we can speed up our work as we eliminate unnecessary steps in opening these pages while we are working on something else!
@@ -44,4 +46,4 @@ javascript:(function() {  var soBaseURL = "https://stackoverflow.com/questions/t
 [![adding-bookmarklet-chrome-browser-step3.png](https://s26.postimg.org/w3mpmku15/adding-bookmarklet-chrome-browser-step3.png)](https://postimg.org/image/q2p0pi7et/)
 
 
-## Do you use any bookmarklets to increase your work productivity? Feel free to contribute here!
+### Javascript in the bookmarklet runs in the context of the current tab open on your browser. So I am sure there are many other ways we can exploit the power of this small nifty feature of browsers. Do you use bookmarklets to increase your work productivity or make testing easier? Feel free to contribute here!
