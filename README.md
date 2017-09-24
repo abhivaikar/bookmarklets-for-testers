@@ -76,4 +76,4 @@ Ofcourse above usecase requires some decent JavaScript coding skills but it shou
 [![adding-bookmarklet-chrome-browser-step3.png](https://s26.postimg.org/w3mpmku15/adding-bookmarklet-chrome-browser-step3.png)](https://postimg.org/image/q2p0pi7et/)
 
 
-### Javascript in the bookmarklet runs in the context of the current tab open on your browser. So I am sure there are many other ways we can exploit the power of this small nifty feature of browsers. Do you use bookmarklets to increase your work productivity or make testing easier? Feel free to contribute here!
+### Javascript in the bookmarklet runs in the context of the current tab open on your browser. So there are many ways we can exploit the power of this small nifty feature of browsers. Do you use bookmarklets to increase your work productivity or make testing easier?
